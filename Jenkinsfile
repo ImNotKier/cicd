@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pipeline {
     agent any
 
@@ -54,4 +55,10 @@ pipeline {
             }
         }
     }
+=======
+environment {
+    GIT_REPO_URL = 'https://github.com/ImNotKier/cicd.git'
+    GIT_CREDENTIALS_ID = 'github-pat'
+    GIT_BRANCH = 'main'
+>>>>>>> 0c520e6 (Updated)
 }
